@@ -6,11 +6,11 @@
 #    By: tgeorgin <tgeorgin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/16 02:28:45 by tgeorgin          #+#    #+#              #
-#    Updated: 2022/12/21 18:15:05 by tgeorgin         ###   ########.fr        #
+#    Updated: 2022/12/21 20:33:02 by tgeorgin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRCS	= main.cpp Contact.cpp Phonebook.cpp
+SRCS	= Contact.cpp Phonebook.cpp
 
 OBJS	= $(SRCS:.cpp=.o)
 

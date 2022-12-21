@@ -6,7 +6,7 @@
 /*   By: tgeorgin <tgeorgin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/16 02:06:23 by tgeorgin          #+#    #+#             */
-/*   Updated: 2022/12/16 02:21:50 by tgeorgin         ###   ########.fr       */
+/*   Updated: 2022/12/21 20:17:25 by tgeorgin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,15 +18,17 @@
 #include <sstream>
 #include "Contact.hpp"
 
-class Phonebook {
+class PhoneBook {
 	public :
-		Phonebook();
-
+		PhoneBook();
+		void ADD(void);
+		void SEARCH(void);
+		void EXIT(void);
 
 
 	private :
-		Contact users[8];
-
+		Contact contacts[8];
+		int		idx;
 };
 
 #endif
